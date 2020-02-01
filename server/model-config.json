@@ -39,5 +39,25 @@
   "user": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "profile": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "organization": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "body": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "designation": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "position": {
+    "dataSource": "mongoDS",
+    "public": false
   }
 }

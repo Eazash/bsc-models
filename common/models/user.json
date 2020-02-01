@@ -12,7 +12,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "profiles": {
+      "type": "hasOne",
+      "model": "profile",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
