@@ -12,7 +12,28 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "organization": {
+      "type": "belongsTo",
+      "model": "organization",
+      "foreignKey": ""
+    },
+    "children": {
+      "type": "hasMany",
+      "model": "body",
+      "foreignKey": ""
+    },
+    "parent": {
+      "type": "belongsTo",
+      "model": "body",
+      "foreignKey": ""
+    },
+    "designations": {
+      "type": "hasMany",
+      "model": "designation",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
