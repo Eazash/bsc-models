@@ -12,7 +12,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "body": {
+      "type": "belongsTo",
+      "model": "body",
+      "foreignKey": ""
+    },
+    "positions": {
+      "type": "hasMany",
+      "model": "position",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
