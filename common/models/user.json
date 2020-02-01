@@ -20,8 +20,37 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "positions": {
+      "type": "hasMany",
+      "model": "position",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "organization": {
+      "type": "belongsTo",
+      "model": "organization",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
   "methods": {}
 }
