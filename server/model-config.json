@@ -50,14 +50,14 @@
   },
   "body": {
     "dataSource": "mongoDS",
-    "public": false
+    "public": true
   },
   "designation": {
     "dataSource": "mongoDS",
-    "public": false
+    "public": true
   },
   "position": {
     "dataSource": "mongoDS",
-    "public": false
+    "public": true
   }
 }

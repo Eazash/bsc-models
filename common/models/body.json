@@ -23,7 +23,7 @@
       "model": "body",
       "foreignKey": ""
     },
-    "parent": {
+    "body": {
       "type": "belongsTo",
       "model": "body",
       "foreignKey": ""
